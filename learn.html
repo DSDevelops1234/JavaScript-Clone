@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="learn.css">
+</head>
+
+<body>
+    <header>
+        <img class="javascript" src="js.png">
+        <nav>
+            <ul>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <ol>
+                <li class="string-s"><a href="learn.html" class="stringss">1. STRINGS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">2. NUMBERS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">3. BOOLEANS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">4. OPERATORS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">5. VARIABLES</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">6. FUNCTIONS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">7. CONDITIONALS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">8. ARRAYS</a></li><br>
+                <li class="learn-list"><a href="" class="list-learn">9. OBJECTS</a></li>
+            </ol>
+        </div>
+        <div class="right">
+            <h1 class="strings">STRINGS</h1>
+            <p string-meaining>In JavaScript, Strings are values made up of text and can contain letters, numbers,
+                <br>symbols, punctuation, and even emojis!
+            </p>
+            <div class="learn-how">
+                <p>// <a href="https://www.pluralsight.com/career/web-developer" class="learn-how-link">Learn How to
+                        Become a Web Developer with Pluralsight Skills</a></p>
+            </div>
+            <div class="single1">
+                <h2 class="single">Single and Double Quotes in JavaScript Strings</h2>
+                <p class="single-detail">Strings in JavaScript are contained within a pair of either single quotation
+                    marks '' or <br>double
+                    quotation marks "". Both quotes represent Strings but be sure to choose one and <br>STICK WITH IT.
+                    If
+                    you start with a single quote, you need to end with a single quote. <br>There are pros and cons to
+                    using
+                    both IE single quotes tend to make it easier to write <br>HTML within Javascript as you don’t have
+                    to
+                    escape the line with a double quote.
+                </p>
+            </div>
+            <div class="examples">
+                <table class="example1">
+                    <th>EXAMPLE </th>
+                </table><br>
+                <table class="example-detail1">
+                    <td>'This is a string. 👏'; <br>"This is the 2nd string. 💁";</td>
+                </table>
+            </div>
+
+            <div class="single1">
+                <h2 class="single">Enclosing Quotation Marks</h2>
+                <p class="single-detail">Let’s say you’re trying to use quotation marks inside a string. You’ll need to use opposite <br>quotation marks inside and outside of JavaScript single or double quotes. That means <br>strings containing single quotes need to use double quotes and strings containing double <br>quotes need to use single quotes.
+                </p>
+            </div>
+            <div class="examples">
+                <table class="example1">
+                    <th>EXAMPLE </th>
+                </table><br>
+                <table class="example-detail1">
+                    <td>"It's six o'clock.";<br>
+                        'Remember to say "please" and "thank you."';
+                        </td>
+                </table>
+            </div>
+            <div class="special">
+                <p class="character">Alternatively, you can use a backslash \ to escape the quotation marks. This lets JavaScript know in advance that you want to use a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#escape_notation" class="special-character">special character</a>.</p>
+            </div>
+            <div class="reuse-example">
+                <p class="reuse">Here’s what that looks like reusing the examples above:</p>
+                <div class="examples">
+                    <table class="example1">
+                        <th>EXAMPLE </th>
+                    </table><br>
+                    <table class="example-detail1">
+                        <td>"It's six o'clock.";<br>
+                            'Remember to say "please" and "thank you."';
+                            </td>
+                    </table>
+                </div>
+            </div>
+
+            <div class="string-methods">
+                <h2 class="method">String Methods and Properties</h2>
+                <p class="method-detail">Strings have their own built-in variables and functions, also known as properties and <br>methods. Here are some of the most common ones.</p>
+            </div>
+
+            <div class="string-length">
+                <h2 class="length">String Length</h2>
+                <p class="length-detail">A string’s length property keeps track of how many characters it has.</p>
+                <div class="example-output">
+                    <table class="examples1">
+                        <th>EXAMPLE </th>
+                    </table><br>
+                    <table class="examples-detail1">
+                        <td>"caterpillar".length;</td>
+                    </table>
+                    <table class="output">
+                        <th>OUTPUT</th>
+                    </table><br>
+                    <table class="output-detail1">
+                        <td>11</td>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="lower-case">
+                <h2 class="case-method">toLowerCase Method</h2>
+                <p class="case-method-detail">A string’s toLowerCase method in JavaScript returns a copy of the string with its letters <br>converted to lowercase. Numbers, symbols, and other characters are not affected.</p>
+                <div class="example-output">
+                    <table class="examples1">
+                        <th>EXAMPLE </th>
+                    </table><br>
+                    <table class="examples-detail1">
+                        <td>"THE KIDS".toLowerCase();</td>
+                    </table>
+                    <table class="output">
+                        <th>OUTPUT</th>
+                    </table><br>
+                    <table class="output-detail1">
+                        <td>"the kids"</td>
+                    </table>
+                </div>
+            </div>
+
+            <div class="lower-case">
+                <h2 class="case-method">toUpperCase Method</h2>
+                <p class="case-method-detail">A string’s toUpperCase method returns a copy of the string with its letters converted <br>to capitals. Numbers, symbols, and other characters are not affected.</p>
+                <div class="example-output">
+                    <table class="examples1">
+                        <th>EXAMPLE </th>
+                    </table><br>
+                    <table class="examples-detail1">
+                        <td>"I wish I were big.".toUpperCase();</td>
+                    </table>
+                    <table class="output">
+                        <th>OUTPUT</th>
+                    </table><br>
+                    <table class="output-detail1">
+                        <td>"I WISH I WERE BIG."</td>
+                    </table>
+                </div>
+            </div>
+
+            <div class="lower-case">
+                <h2 class="case-method">trim Method</h2>
+                <p class="case-method-detail">A string’s trim method returns a copy of the string with beginning and ending whitespace <br>characters removed.</p>
+                <div class="example-output">
+                    <table class="examples1">
+                        <th>EXAMPLE </th>
+                    </table><br>
+                    <table class="examples-detail1">
+                        <td>"   but keep the middle spaces   ".trim();</td>
+                    </table>
+                    <table class="output">
+                        <th>OUTPUT</th>
+                    </table><br>
+                    <table class="output-detail1">
+                        <td>"but keep the middle spaces"</td>
+                    </table>
+                    <span class="button-next">
+                        <a class="next1" href="https://www.javascript.com/learn">NEXT</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="ready-to">
+                <h3 class="ready-to-learn">Ready to learn more?</h3>
+                <span class="become-ready-to">Become a Javascript developer at your own pace!</span>
+                <p class="ready-to-detail">When you sign up with Pluralsight, you'll immediately have access to thousands of <br>expert courses, paths to guide your learning, tools to measure your skills and hands-<br>on resources like exercise files. Javascript is just the beginning. There’s no limit on <br>what you can learn and you can cancel at any time.</p>
+                <span class="try-for">
+                    <a class="try-for-free" href="https://www.javascript.com/learn">TRY FOR FREE</a>
+                </span>
+            </div>
+        </div>
+
+        <footer>
+            <img class="jss" src="js.png">
+            <div class="copyright">© 2016-2024 JavaScript.com</div>
+            <nav>
+                <span><a href="#" class="lra">Learn</a><pre class="slash">       /</pre>
+                <a href="#" class="lra">Resources</a><span></span><pre class="slash">       /</pre>
+                <a href="#" class="lra">About</a></span>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tt-commons');
+@font-face {
+    /* font-family: helvetica_neue;
+    src: url('helvetica-neue-55-cdnfonts/HelveticaNeue-HeavyExtObl.otf'); */
+    font-family: PS_Commons;
+    src: url('tt-commons-cufonfonts/TT Commons ExtraBold.otf');
+}
+@font-face {
+    font-family: TT_Commons;
+    src: url('tt-commons-cufonfonts/TT Commons Regular.otf');
+}
+@font-face {
+    font-family: TT_Commons_Bold;
+    src: url('tt-commons-cufonfonts/TT Commons Bold.otf');
+}
+*{
+    color: white;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #ffdc04;
+}
+header{
+    background-color: #080404;
+    color: #fff;
+    display: flex;
+    padding: 13px 0px;
+    justify-content: space-between;
+    align-items: start;
+    height: 93px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+
+}
+.javascript{
+    width: 279px;
+    height: 65px;
+    margin-left: 40px;
+    margin-right: 55%;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+nav ul{
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-left: -90px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+.container{
+    vertical-align: middle;
+    padding: 70px 0;
+}
+
+.heading h1{
+    font-weight: 900;
+    font-size: 48px;
+}
+.heading p{
+    line-height: 2;
+}
+.heading p a{
+    color: #b13387;
+    font-weight: 750;
+}
+.heading h2{
+    font-weight: normal;
+    font-size: 28px;
+    margin-top: 40px;
+}
+.content p{
+    margin-top: -25px;
+    line-height: 2.1;
+}
+.container .celebrating{
+    color: #FCDC00;
+    background-color: #080404;
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 23px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    margin-left: 40px;
+    margin-top: 40px;
+    letter-spacing: 10px;
+    font-size: 28px;
+    font-family: PS_Commons;
+    font-weight: 900;
+    height: 30px;
+
+}
+.container h1{
+    letter-spacing: -5px;
+    font-weight: 1000;
+    font-size: 115px;
+    line-height: unset;
+    text-transform: none;
+    margin-top: -45px;
+    margin-left: 36px;
+    color: #181818;
+    /* font-family: 'Public Sans'; */
+    font-family: PS_Commons;
+    line-height: unset;
+    margin-bottom: -25px;
+}
+.numbers{
+    margin-left: 55px;
+    font-size: 85px;
+}
+.numbers .one{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -16px;
+}
+.numbers .comma{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -15px;
+}
+.numbers .four{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -26px;
+    letter-spacing: -1.5px;
+}
+.numbers .commas{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -20px;
+}
+.numbers .two{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -20px;
+}
+.numbers .three{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -20px;
+}
+.numbers .one1{
+    /* font-size: 92px; */
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #181818;
+    margin-left: -22px;
+}
+.libraries{
+    font-size: 88px;
+    font-family: TT_Commons_Bold;
+    font-style: italic;
+    color: #181818;
+    font-weight: 1000;
+    margin-left: 5px;
+    letter-spacing: -2.5px;
+}
+.container .count{
+    font-size: 40px;
+    font-weight: 550;
+    font-family: TT_Commons;
+    font-style: italic;
+    color: #363636;
+    margin-left: 8px;
+    letter-spacing: -1px;
+
+}
+.container .try{
+    font-size: 40px;
+    font-family: TT_Commons_Bold;
+    color: #181818;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-top: 65px;
+    margin-left: 37.5%;
+    margin-bottom: 20px;
+}
+.detail{
+    font-family: TT_Commons;
+}
+.detail .detail1{
+    color: #000000;
+    font-size: 18px;
+    line-height: 38px;
+    margin-left: 18%;
+    /* word-spacing: 5px; */
+}
+.detail .detail2{
+    color: #000000;
+    font-size: 18px;
+    margin-left: 18%;
+    /* word-spacing: 5px; */
+}
+.jamie{
+    background-color: #F8F8F8;
+    color: #555555;
+    font-family: Consolas,"Liberation Mono",Courier,monospace;
+    padding: 5px;
+    font-size: 20px;
+}
+.detail .detail3{
+    color: #000000;
+    font-size: 18px;
+    margin-left: -2px;
+}
+.arrow-textarea{
+    display: flex;
+    margin-left: 18%; 
+    border: 1px solid #121212E6;
+    width: 870px;
+    margin-top: 35px;
+    margin-bottom: 9%;
+}
+.arrow{
+    background-color: #121212E6;
+    height: 58px;
+}
+.arrow p{
+    font-size: 50px;
+    font-family: TT_Commons;
+    width: 35px;
+    text-align: center;
+    margin-top: -9px;
+    padding-right: 7px;
+}
+.textarea{
+    display: inline;
+    background-color:#121212E6;
+    margin-left: 3px;
+    font-size: 25px;
+    width: 900px;
+    height: 26px;
+    resize: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: -1px;
+    overflow: hidden;
+    border-radius: 0;
+}
+.course{
+    background-color: #EC008C;
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 41.2%;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.course .course1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.course:hover{
+    box-shadow: 0px 0px 80px -20px rgb(97, 97, 97);
+    background-image: linear-gradient(#F05035,#EF3454,#ED1477);
+}
+.celebrate{
+    display: flex;
+    margin-top: 5.5%;
+}
+.celebrate .left{
+    width: 45%;
+    margin-left: 77px;
+}
+.celebrate .right{
+    width: 45%;
+    margin-left: 6%;
+}
+.celebrate .left h3{
+    font-size: 32px;
+    font-family: TT_Commons;
+    font-weight: normal;
+    display:inline-block;
+    color: #181818;
+    margin-left: -4%;
+}
+.celebrate .right h3{
+    font-size: 32px;
+    font-family: TT_Commons;
+    font-weight: normal;
+    display:inline-block;
+    color: #181818;
+}
+.celebrate .right p{
+    display: inline;
+}
+.celebrate .left hr{
+    border: 0.1px solid #181818;
+    margin-top: -2%;
+    width: 102.5%;
+    margin-left: -3%;
+
+}
+.celebrate .right hr{
+    border: 0.1px solid #181818;
+    margin-top: -2%;
+    margin-right: 6%;
+}
+.celebrate .right p{
+    font-size: 11px;
+    color: #6f6f6f;
+    font-weight: 900;
+    font-family: TT_Commons_Bold;
+    letter-spacing: 1px;
+}
+.div{
+    display: flex;
+}
+.div .div1 .on-demand{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fdcd00;
+    font-family: TT_Commons_Bold;
+    font-size: 20px;
+    margin-left: -25%;
+    margin-top: 9%;
+}
+.div .div1 .on-demand h4{
+    color: #fdcd00;
+    font-family: TT_Commons_Bold;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-top: 25%;
+}
+.div2{
+    width: 80%;
+}
+.div .div2 h4{
+    font-size: 30px;
+    font-family: TT_Commons;
+    color: #181818;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-top: 2%;
+}
+.div .div2 .js-medi-detail{
+    font-size: 18px;
+    font-size: TT_Commons;
+    color: #000000;
+    margin-top: -5%;
+    margin-bottom: 7%;
+}
+.div .div2 .button-guided-meditation{
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #181818;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 45%;
+    transition: 0.8s ease-in-out;
+}
+.div .div2 .button-guided-meditation:hover{
+    box-shadow: 2px 10px 80px -15px rgb(53, 49, 49);
+}
+.courses {
+    background-image: url('image-res.img.aba32e09-2d64-4861-9e94-dbbf86c31232.jpg');
+    background-repeat: no-repeat;
+    height: 236px;
+    width: 565px;
+    margin-top:  10%;
+    border-top: 15px solid black;
+
+}
+.courses #coursess{
+    background-color: #000000;
+    height: 28px;
+    width: 440px;
+    margin-top: -2.5%;
+    margin-left: 40px;
+}
+.courses #coursess .coursess{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 25px;
+    top: -26px;
+}
+.courses #courrses{
+    background-color: #000000;
+    height: 25px;
+    width: 320px;
+    margin-top: 2%;
+    margin-left: 40px;
+}
+.courses #courrses .courrses{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 26.5px;
+    margin-top: 7%;
+}
+.courses .get-started{
+    border: 3px solid black;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-top: 30px;
+    padding: 15px 60px;
+    margin-left: 53%;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+.know {
+    background-image: url('image-res.img.ede81306-ed80-4d24-a144-a96b88f61f77.jpg');
+    background-repeat: no-repeat;
+    height: 236px;
+    width: 565px;
+    margin-top:  10%;
+    border-top: 15px solid black;
+
+}
+.know #knoww{
+    background-color: #000000;
+    height: 28px;
+    width: 402px;
+    margin-top: -2.5%;
+    margin-left: 40px;
+}
+.know #knoww .knoww{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 25px;
+    top: -26px;
+}
+.know #knnow{
+    background-color: #000000;
+    height: 25px;
+    width: 256.3px;
+    margin-top: 2%;
+    margin-left: 40px;
+}
+.know #knnow .knnow{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 26.5px;
+    margin-top: 7%;
+}
+.know .get-started{
+    border: 3px solid black;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 48%;
+    padding: 15px;
+    font-weight: 700;
+    width: 252.77px;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+.just {
+    background-image: url('image-res.img.bb915423-d79e-4e04-bf01-0760bdfec7eb.jpg');
+    background-repeat: no-repeat;
+    height: 236px;
+    width: 565px;
+    margin-top:  10%;
+    border-top: 15px solid black;
+
+}
+.just #justt{
+    background-color: #000000;
+    height: 28px;
+    width: 450px;
+    margin-top: -2.5%;
+    margin-left: 40px;
+}
+.just #justt .justt{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 25px;
+    top: -26px;
+}
+.just #jusst{
+    background-color: #000000;
+    height: 25px;
+    width: 410px;
+    margin-top: 2%;
+    margin-left: 40px;
+}
+.just #jusst .jusst{
+    font-size: 55px;
+    font-family: TT_Commons_Bold;
+    position: relative;
+    bottom: 26.5px;
+    margin-top: 7%;
+}
+.just .get-started{
+    border: 3px solid black;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #000000;
+    margin-top: 23px;
+    padding: 15px 60px;
+    margin-left: 53%;
+    font-weight: 700;
+    transition: 0.4s ease-in-out;
+}
+.get-started:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 40px 0px rgb(73, 73, 73);
+}
+.celebrate-javasript25 .javascript25{
+    font-size: 40px;
+    color: #181818;
+    font-family: TT_Commons_Bold;
+    text-align: center;
+    margin-top: 14%;
+}
+
+.celebrate-javasript25 p{
+    font-size: 18px;
+    font-family: TT_Commons;
+    text-align: center;
+    margin-top: -35px;
+    color: #181818;
+    margin-bottom: 4%;
+}
+.celebrate-javasript25 a{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #181818;
+    padding: 20px 30px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 42%;
+    transition: 0.4s ease-in-out;
+}
+.celebrate-javasript25 a:hover{ 
+    box-shadow: 0px 10px 80px -15px rgb(53, 49, 49);
+}
+
+
+
+
+
+footer{
+    background-color: #080404;
+    color: #fff;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: start;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 0;
+    font-family: sans-serif;
+    color: #222222;
+    margin-top: 3%;
+}
+.jss{
+    width: 171.69px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 55%;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.copyright{
+    margin-left: -53.5%;
+    font-size: 10px;
+    color: #AAAAAA;
+}
+footer nav{
+    color: #eeeeee;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 55%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer nav span .lra{
+    margin-left: 10px;
+    text-decoration: none;
+}
+footer nav span .lra:hover{
+    text-decoration:underline;
+}
+footer nav span .slash{
+    display: inline;
+    justify-content: space-evenly;
+}
