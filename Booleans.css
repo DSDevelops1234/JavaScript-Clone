@@ -135,14 +135,14 @@ header .right_header nav ol .navigation a:hover{
     justify-content: center;
     flex-direction: column;
 }
-.container .right_container .numbers_heading{
+.container .right_container .booleans_heading{
     font-size: 48px;
     font-family: sans-serif;
     color: #FFFFFF;
     font-weight: 900;
-    margin-top: -250px;
+    margin-top: -100px;
 }
-.container .right_container .numbers_detail{
+.container .right_container .booleans{
     color: #DDDDDD;
     font-size: 16px;
     font-family: sans-serif;
@@ -165,102 +165,39 @@ header .right_header nav ol .navigation a:hover{
     font-family: sans-serif;
     color: #222222;
     margin-left: 15px;
+    line-height: 24px;
 }
-.container .right_container .decimals_fractions{
-    font-size: 28px;
+.container .right_container .bool_info{
+    font-size: 16px;
     font-family: sans-serif;
     color: #FFFFFF;
     font-weight: normal;
-    margin-top: 35px;
+    margin-top: 5px;
 }
-.container .right_container .decimals_fractions_detail{
+.container .right_container .boolean_info{
     color: #DDDDDD;
     font-size: 16px;
     font-family: sans-serif;
     line-height: 30px;
-    margin-top: -20px;
-}
-.container .right_container .example_output{
-    background-color: #FFFFFF;
-    height: 156px;
-    margin-bottom: 12px;
-}
-.container .right_container .example_output .example3{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    font-weight: 700;
-    margin-left: 15px;
-}
-.container .right_container .example_output .output1{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    font-weight: 700;
-    margin-left: 15px;
-}
-.container .right_container .example_output .example4{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    margin-left: 15px;
-    line-height: 30px;
-}
-.container .right_container .example_output .output2{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    margin-left: 15px;
-    line-height: 30px;
+    margin-top: 0px;
 }
 
 
 
-.container .right_container .fractions_detail{
+.container .right_container .booleans_info{
     color: #DDDDDD;
     font-size: 16px;
     font-family: sans-serif;
     line-height: 30px;
-    margin-bottom: 17px;
+    margin-top: 3px;
 }
-.container .right_container .fractions_detail a{
+.container .right_container .booleans_info a{
     color: #D53387;
     padding-bottom: 3px;
     border-bottom-style: solid;
     border-bottom-width: 2.15px;
     width: fit-content;
     text-decoration: none;
-}
-.container .right_container .example_output{
-    background-color: #FFFFFF;
-    height: 156px;
-    margin-bottom: 12px;
-}
-.container .right_container .example_output .example3{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    font-weight: 700;
-    margin-left: 15px;
-}
-.container .right_container .example_output .output1{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    font-weight: 700;
-    margin-left: 15px;
-}
-.container .right_container .example_output .example4{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    margin-left: 15px;
-}
-.container .right_container .example_output .output2{
-    font-size: 14px;
-    font-family: sans-serif;
-    color: #222222;
-    margin-left: 15px;
 }
 
 
@@ -319,7 +256,7 @@ header .right_header nav ol .navigation a:hover{
     background-color: #222222;
     box-shadow: 0px 10px 80px 0.5px black;
     border-radius: 8px;
-    margin-bottom: -36%;
+    margin-bottom: -5%;
 }
 .container .right_container .inner_container .ready_to_learn{
     color: #FFFFFF;
@@ -391,7 +328,6 @@ footer .left_footer .copyright{
 footer .right_footer{
     display: flex;
     align-content: center;
-    /* display: inline-block; */
     width: 50%;
     margin-right: 0px;
     align-items: center;
