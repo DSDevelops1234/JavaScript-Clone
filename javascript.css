@@ -4,15 +4,15 @@
     /* font-family: helvetica_neue;
     src: url('helvetica-neue-55-cdnfonts/HelveticaNeue-HeavyExtObl.otf'); */
     font-family: PS_Commons;
-    src: url('tt-commons-cufonfonts/TT Commons ExtraBold.otf');
+    src: url('Assets/Fonts/tt-commons-cufonfonts/TT Commons ExtraBold.otf');
 }
 @font-face {
     font-family: TT_Commons;
-    src: url('tt-commons-cufonfonts/TT Commons Regular.otf');
+    src: url('Assets/Fonts/tt-commons-cufonfonts/TT Commons Regular.otf');
 }
 @font-face {
     font-family: TT_Commons_Bold;
-    src: url('tt-commons-cufonfonts/TT Commons Bold.otf');
+    src: url('Assets/Fonts/tt-commons-cufonfonts/TT Commons Bold.otf');
 }
 *{
     color: white;
@@ -393,7 +393,7 @@ nav ul li a:hover{
     box-shadow: 2px 10px 80px -15px rgb(53, 49, 49);
 }
 .courses {
-    background-image: url('image-res.img.aba32e09-2d64-4861-9e94-dbbf86c31232.jpg');
+    background-image: url('Assets/Images/image-res.img.aba32e09-2d64-4861-9e94-dbbf86c31232.jpg');
     background-repeat: no-repeat;
     height: 236px;
     width: 565px;
@@ -444,7 +444,7 @@ nav ul li a:hover{
 
 
 .know {
-    background-image: url('image-res.img.ede81306-ed80-4d24-a144-a96b88f61f77.jpg');
+    background-image: url('Assets/Images/image-res.img.ede81306-ed80-4d24-a144-a96b88f61f77.jpg');
     background-repeat: no-repeat;
     height: 236px;
     width: 565px;
@@ -496,7 +496,7 @@ nav ul li a:hover{
 
 
 .just {
-    background-image: url('image-res.img.bb915423-d79e-4e04-bf01-0760bdfec7eb.jpg');
+    background-image: url('Assets/Images/image-res.img.bb915423-d79e-4e04-bf01-0760bdfec7eb.jpg');
     background-repeat: no-repeat;
     height: 236px;
     width: 565px;
